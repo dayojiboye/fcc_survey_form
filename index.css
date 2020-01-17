@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+}
+
+#container {
+    background-image: linear-gradient(35deg, #CCFFFF, blue);
+    background-size: cover;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 50px;
+}
+
+header {
+    text-align: center;
+}
+
+#title {
+    margin-bottom: 12px;
+}
+
+#description {
+    font-style: oblique;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+main {
+    background: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    width: 670px;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+#survey-form {
+    font-size: 1.1rem;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+input[type="text"], input[type="email"], input[type="number"], textarea {
+    border-radius: 5px;
+    padding: 10px 13px 8px 13px;
+    border: 0px solid transparent;
+    width: 645px;
+    color: gray;
+    font-size: 1.07rem;
+    margin-top: 10px;
+}
+
+.label-span {
+    font-size: 0.9rem;
+}
+
+select {
+    border-radius: 5px;
+    padding: 10px 13px 8px 13px;
+    border: 0px solid transparent;
+    width: 671px;
+    color: gray;
+    font-size: 1.07rem;
+    margin-top: 10px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+}
+
+.check-group {
+    margin-top: 10px;
+    display: flex;
+}
+
+.check-label {
+    margin-left: 8px;
+}
+
+textarea {
+    resize: none;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 0;
+    height: 100px;
+}
+
+#submit {
+    color: white;
+    background-color: #37AF65;
+    border: 0px solid #37AF65;
+    font-size: 1.07rem;
+    border-radius: 2px;
+    width: 671px;
+    padding: 12px 0;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
